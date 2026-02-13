@@ -18,6 +18,8 @@ mpl.rcParams['figure.facecolor'] = "#BEFFFF00"
 
 pg = st.navigation([
     st.Page("crust_and_mantle.py", title="Crust and Mantle Isostasy"),
-    st.Page("sea_level.py", title="Isostatic Adjustment with Sea Level")
+    st.Page("sea_level_fixed_mantle.py", title="Sea Level - Fixed Mantle"),
+    st.Page("sea_level.py", title="Sea Level - Changing Mantle"),
+    st.Page("stretching.py", title="Stretching Model"),
     ])
 pg.run()
