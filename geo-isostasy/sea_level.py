@@ -14,7 +14,7 @@ min_sea_level = st.number_input("Min Sea Level (km)",
 
 max_sea_level = st.number_input("Max Sea Level (km)",
                 min_value=0.5,
-                max_value=4.5,
+                max_value=7.5,
                 value=4.0,
                 step=0.5,
                 key="max_sea_level") * 1e3
