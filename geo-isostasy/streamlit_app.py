@@ -21,6 +21,7 @@ pg = st.navigation([
     st.Page("sea_level_fixed_mantle.py", title="Sea Level - Fixed Mantle"),
     st.Page("sea_level.py", title="Sea Level - Changing Mantle"),
     st.Page("stretching.py", title="Stretching Model"),
+    st.Page("stretching_2.py", title="Stretching Model - 2"),
     st.Page("disclaimer.py", title="Disclaimer"),
     ])
 pg.run()
